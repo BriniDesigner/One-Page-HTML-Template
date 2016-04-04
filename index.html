@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>One Page HTML Template</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<header id="main-header">
+	<div class="container">
+		<div class="float-left">OnePage</div>
+		<nav id="main-nav">
+			<ul class="main-menu float-right">
+				<li><a href="#section1">Home</a></li>
+				<li><a href="#section2">About</a></li>
+				<li><a href="#section4">Testimonials</a></li>
+				<li><a href="#section5">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<section id="main-content">
+	<div class="fixed-bg bg-image-1 vertical-align" id="section1">
+		<div class="vertical-container">
+			<div class="container text-center">
+				<h1>Free Theme from Brini Designer</h1>
+				<h2>You can put your cool slogan here</h2>
+			</div>
+		</div>
+	</div>
+
+	<div class="fixed-bg-adjust bg-color-1" id="section2">
+		<div class="container text-center">
+			<h1>About me</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim idest dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris laborum.</p><br>
+			<p><a class="btn" href="">Learn More</a></p>
+		</div>
+	</div>
+
+	<div class="fixed-bg-adjust bg-image-2" id="section3">
+		<div class="container text-center">
+			<h1>My Phylosophy</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			quis aliquip ex ea commodo consequat.
+			</p>
+			<p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla labore et dolore magna aliqua pariatur...</p>
+		</div>
+	</div>
+
+	<div class="scrolling-bg bg-color-2 vertical-align" id="section4">
+		<div class="vertical-container">
+			<div class="container text-center">
+				<h1>Testimonials</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in magna aliqua pariatur voluptate</p><br>
+				<p><a class="btn" href="">View Work</a></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="fixed-bg bg-image-3 vertical-align" id="section5">
+		<div class="vertical-container">
+			<div class="container">
+				<h1>Contact Details</h1>
+				<p>Street lorem ispum, Dolor Sit Amet 30532, CA, United States</p>
+				<p>Phone: +1 456 7895 8520</p>
+				<p>Fax: +1 820 6459 7645</p>
+				<p>Email: <a href="mailto:user@server.com">user@server.com</a></p>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+
+<script type="text/javascript">
+	jQuery(document).ready(function($){
+
+		$('a').click(function(e){
+			e.preventDefault();
+			whereTo = $(this).attr('href');
+			$(document).scrollTo(whereTo, 1000);
+		});
+
+	});
+</script>
+</body>
+</html>

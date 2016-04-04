@@ -1,0 +1,179 @@
+/*** 
+ This file was download from http://brinidesigner.com
+ Please do not use it or the photos in the /images folder for commercial purpose without my written permission.
+***/
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body, html {
+	min-height: 100%;
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	color: #fff;
+	font-family: "Roboto", sans-serif;
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 2;
+	background-color: white;
+}
+
+h1{
+	font-size: 58px;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+}
+
+a.btn{
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 10px 25px;
+	border-radius: 5px;
+}
+a.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.float-left{
+	display: inline-block;
+	float: left;
+}
+.float-right{
+	display: inline-block;
+	float: right;
+}
+
+#main-header{
+	color: #000;
+	background: rgba(255, 255, 255, 0.9);
+	/*height: 48px;*/
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+	line-height: 72px;
+}
+
+ul.main-menu{
+	list-style: none;
+}
+
+ul.main-menu > li{
+	display: inline-block;
+	padding-left: 20px;
+}
+ul.main-menu a{
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.toggle-menu{
+	display: block;
+	/*background: url("images/icon-menu.svg") no-repeat center center;*/
+	background-size: cover;
+	width: 40px;
+	height: 40px;
+}
+
+#main-content{
+	height: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+.fixed-bg{
+	position: relative;
+	min-height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+.fixed-bg-adjust{
+	position: relative;
+	padding: 100px 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+.scrolling-bg{
+	position: relative;
+	min-height: 100%;
+	padding: 4em 0;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+	z-index: 2;
+}
+
+.bg-image-1{
+	background-image: url("../images/bg-1.jpg");
+}
+.bg-image-2{
+	background-image: url("../images/bg-2.jpg");
+}
+.bg-image-3{
+	background-image: url("../images/bg-3.jpg");
+}
+.bg-color-1{
+	background-color: #118697;
+}
+.bg-color-2{
+	background-color: #11975c;
+}
+.bg-color-3{
+	background-color: #5c5ff0;
+}
+
+.container {
+	max-width: 1020px;
+	margin: 0 auto;
+	padding: 0 40px;
+	display: block;
+}
+
+.vertical-align{
+	display: table;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.vertical-align .vertical-container{
+	display: table-cell;
+	vertical-align: middle;
+	min-height: 100%;
+	width: 1000px;
+}
+
+@media screen and (max-width: 768px) {
+	body{
+		font-size: 18px;
+		line-height: 1.75;
+	}
+	.container{
+		padding: 0 20px;
+	}
+} 
