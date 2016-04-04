@@ -6,6 +6,7 @@
 
 * Elegant One Page theme
 * W3C valid HTML5 and CSS3
+* Responsive (works well on smartphones and tablets)
 * Easy to customize
 * Clean code
 
