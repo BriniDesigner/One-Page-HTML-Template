@@ -10,6 +10,4 @@
 * Easy to customize
 * Clean code
 
-Visit http://brinidesigner.com for more cool stuff
-
-* The theme is completely free but please do not use the photos in the /images folder for commercial purpose without my written permission.
+Visit http://brinidesigner.com/blog for more cool stuff
